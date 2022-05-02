@@ -1,13 +1,17 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAc6b52AKNvQQ1buicgiNRgzvmEYmgH6Sk",
-    authDomain: "art-service-provider.firebaseapp.com",
-    projectId: "art-service-provider",
-    storageBucket: "art-service-provider.appspot.com",
-    messagingSenderId: "1020084369434",
-    appId: "1:1020084369434:web:a3a82210f4bead0dc639a3"
+    apiKey: "AIzaSyAmslAXiucAqBiwQUEe9H39nrXGb0Y8ZgA",
+    authDomain: "weave-dreams-to-paint.firebaseapp.com",
+    projectId: "weave-dreams-to-paint",
+    storageBucket: "weave-dreams-to-paint.appspot.com",
+    messagingSenderId: "763218584023",
+    appId: "1:763218584023:web:cac76469d5e09d06c9eb92"
 };
 
 // Initialize Firebase
