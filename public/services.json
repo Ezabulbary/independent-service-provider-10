@@ -1,0 +1,51 @@
+[
+    {
+        "id": "6270225612d603551b261602",
+        "name": "Ceramic Art",
+        "balance": "$386.29",
+        "about": "Ceramic art is art made from ceramic materials (including clay), which may take forms such as pottery, tile, figurines, sculpture, and tableware.",
+        "picture": "https://i.ibb.co/rxhzwgD/service1.png"
+    },
+    {
+        "id": "62702256c94d2700c2a7c7d5",
+        "name": "Conceptual Art",
+        "balance": "$186.95",
+        "about": "Conceptual art, also referred to as conceptualism, is art in which the concept's or idea's involved in the work take precedence over traditional aesthetic, technical, and material concerns.",
+        "picture": "https://i.ibb.co/qL8ztdF/service2.png"
+    },
+    {
+        "id": "62702256b1e051a83230b70c",
+        "name": "Drawing",
+        "balance": "$147.44",
+        "about": "Drawing is a form of visual art in which an artist uses instruments to mark paper or other two-dimensional surface.",
+        "picture": "https://i.ibb.co/zhzsmwW/service3.png"
+    },
+    {
+        "id": "62702256b2858ac25553be51",
+        "name": "Painting",
+        "balance": "$169.91",
+        "about": "Painting is the practice of applying paint, pigment, color or other medium to a solid surface.",
+        "picture": "https://i.ibb.co/KDj6HJx/service4.png"
+    },
+    {
+        "id": "627022563a084abf478ad462",
+        "name": "Car Art",
+        "balance": "$358.11",
+        "about": "An art car is a vehicle that has had its appearance modified as an act of personal artistic expression.",
+        "picture": "https://i.ibb.co/C2yCcHF/service5.png"
+    },
+    {
+        "id": "627022564365da2a00decb77",
+        "name": "3D Art",
+        "balance": "$389.95",
+        "about": "Creating 3D art takes a great deal of skill, but if you're willing to put in the effort then you can achieve stunning results.",
+        "picture": "https://i.ibb.co/g75F3Mr/service6.png"
+    },
+    {
+        "id": "6270af85107e564ef4a25de3",
+        "name": "Home Art & Design",
+        "balance": "$889.95",
+        "about": "At Home Art & Design, we offer a full range of interior design services from room planning to fabric sourcing and decoration.",
+        "picture": "https://i.ibb.co/L1LhW9p/service7.png"
+    }
+]
