@@ -12,7 +12,7 @@ const Artists = () => {
 
     return (
         <div className='container'>
-            <h1 className='text-center text-success shadow-lg p-3 m-5 bg-body rounded'>Our Artist</h1>
+            <h1 className='text-center text-success shadow-lg p-3 mt-5 bg-body rounded'>Our Artist</h1>
             <div className='row'>
                 {
                     artists.map(artist => <Artist
