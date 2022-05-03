@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Service from '../Service/Service';
-import './Services.css'
+import './Services.css';
 
 const Services = () => {
     const [services, setServices] = useState([]);
@@ -12,7 +12,7 @@ const Services = () => {
     }, [])
 
     return (
-        <div>
+        <div className='services-section'>
             <h1>My Services</h1>
             <div className='services-container'>
                 {

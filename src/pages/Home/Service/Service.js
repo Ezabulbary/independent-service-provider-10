@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import
+import './Service.css';
 
 const Service = ({ service }) => {
     const { picture, name, about, balance } = service;
