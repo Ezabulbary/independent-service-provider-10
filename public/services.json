@@ -10,7 +10,7 @@
         "id": "62702256c94d2700c2a7c7d5",
         "name": "Conceptual Art",
         "balance": "$186.95",
-        "about": "Conceptual art, also referred to as conceptualism, is art in which the concept's or idea's involved in the work take precedence over traditional aesthetic, technical, and material concerns.",
+        "about": "Conceptual art also referred to as conceptualism, is art in which the concepts or ideas involved in the work take precedence over traditional aesthetic, technical, and material concerns.",
         "picture": "https://i.ibb.co/qL8ztdF/service2.png"
     },
     {
@@ -40,12 +40,5 @@
         "balance": "$389.95",
         "about": "Creating 3D art takes a great deal of skill, but if you're willing to put in the effort then you can achieve stunning results.",
         "picture": "https://i.ibb.co/g75F3Mr/service6.png"
-    },
-    {
-        "id": "6270af85107e564ef4a25de3",
-        "name": "Home Art & Design",
-        "balance": "$889.95",
-        "about": "At Home Art & Design, we offer a full range of interior design services from room planning to fabric sourcing and decoration.",
-        "picture": "https://i.ibb.co/L1LhW9p/service7.png"
     }
 ]
