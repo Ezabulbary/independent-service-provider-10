@@ -1,10 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import
 
 const Service = ({ service }) => {
-    const { picture, id, name, balance, about } = service;
+    const { picture, name, about, balance } = service;
     return (
-        <div>
-            <img src={picture} alt="" />
+        <div className="card-container">
+            <img className="card-img" src={picture} alt="..." />
+            <div className="card-info">
+                <h3 className="card-name">{name}</h3>
+                <p className="card-about">{about}</p>
+                <p><small className="card-price">{balance}</small></p>
+                <Link to="/" className="btn btn-primary">Go somewhere</Link>
+            </div>
         </div>
     );
 };
