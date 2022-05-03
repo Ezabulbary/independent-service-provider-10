@@ -12,13 +12,13 @@ const Header = () => {
                     <Link className="navbar-brand" to="/">BUNON</Link>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                            <Link className="nav-link active" aria-current="page" to="/home">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Link</Link>
+                            <Link className="nav-link" to="/services">Services</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link disabled" to='/'>Disabled</Link>
+                            <Link className="nav-link" to='/artists'>Artists</Link>
                         </li>
                     </ul>
                     <form className="d-flex">
