@@ -1,7 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
 import About from './pages/About/About';
 import Blogs from './pages/Blogs/Blogs';
+import Artists from './pages/Home/Artists/Artists';
+import Contact from './pages/Home/Contact/Contact';
 import Home from './pages/Home/Home/Home';
+import Services from './pages/Home/Services/Services';
 import Footer from './pages/Shared/Footer/Footer';
 import Header from './pages/Shared/Header/Header';
 import NotFound from './pages/Shared/NotFound/NotFound';
@@ -14,6 +17,9 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='/services' element={<Services></Services>}></Route>
+        <Route path='/artists' element={<Artists></Artists>}></Route>
+        <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>

@@ -12,7 +12,7 @@ const Service = ({ service }) => {
                     <h3 className="card-name">{name}</h3>
                     <p className="card-about">{about}</p>
                     <p><small className="card-price">Price: {balance}</small></p>
-                    <Link to="/" className="btn btn-dark">To learn more</Link>
+                    <Link to="/" className="btn btn-success">To learn more</Link>
                 </div>
             </div>
         </div>

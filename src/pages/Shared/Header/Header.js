@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import CustomLink from '../CustomLink/CustomLink';
+import './Header.css'
 
 const Header = () => {
     return (
@@ -10,19 +12,17 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link as={Link} to="/home">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
-                        <NavDropdown title="Our Work" id="collasible-nav-dropdown">
-                            <NavDropdown.Item as={Link} to="/services">Services</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/artists">Artists</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/contact">Contact</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item as={Link} to="/checkout">Checkout</NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Link as={CustomLink} to="/home">Home</Nav.Link>
+                        <Nav.Link as={CustomLink} to="/blogs">Blogs</Nav.Link>
+                        <Nav.Link as={CustomLink} to="services">Services</Nav.Link>
+                        <Nav.Link as={CustomLink} to="/artists">Artists</Nav.Link>
+                        <Nav.Link as={CustomLink} to="/contact">Contact</Nav.Link>
+                        <Nav.Link as={CustomLink} to="/checkout">Checkout</Nav.Link>
+                        
                     </Nav>
                     <Nav>
-                        <Nav.Link as={Link} to="/about">About</Nav.Link>
-                        <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                        <Nav.Link as={CustomLink} to="/about">About</Nav.Link>
+                        <Nav.Link as={CustomLink} to="/login">Login</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

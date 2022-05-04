@@ -13,7 +13,7 @@ const Artist = ({ artist }) => {
                     <p className="card-about"><small>Email: {email}</small></p>
                     <p className="card-about"><small>Phone: {phone}</small></p>
                     <p><small className="card-price">Address: {address}</small></p>
-                    <Link to="/" className="btn btn-dark my-btn">Contact</Link>
+                    <Link to="/" className="btn btn-success my-btn">Contact</Link>
                 </div>
             </div>
         </div>
