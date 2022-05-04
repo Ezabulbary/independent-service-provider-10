@@ -1,28 +1,43 @@
-.login{
+.registers {
     padding: 50px 20px;
     background-color: rgba(231, 229, 229, 0.856);
     width: 30%;
-    margin: 100px auto 170px;
+    margin: 100px auto;
     border-radius: 10px;
     text-align: center;
 }
 
-.login form input {
+.registers form input {
     width: 70%;
     margin: 10px;
     padding: 5px;
     border-radius: 8px;
 }
 
+.social-btn {
+    margin: 0 10px;
+}
+
+.social-icon {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.social-icon:hover{
+    border: 1px solid green;
+}
+
 @media only screen and (max-width:992px) {
-    .login {
+    .registers {
         width: 90%;
         margin: 50px auto;
     }
 }
-
 @media only screen and (min-width:993px) and (max-width:1200px) {
-    .login {
+    .registers {
         width: 40%;
         margin: 100px auto;
     }

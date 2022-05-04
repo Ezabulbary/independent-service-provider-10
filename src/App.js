@@ -5,6 +5,8 @@ import Artists from './pages/Home/Artists/Artists';
 import Contact from './pages/Home/Contact/Contact';
 import Home from './pages/Home/Home/Home';
 import Services from './pages/Home/Services/Services';
+import Login from './pages/Login/Login';
+import Register from './pages/Register/Register';
 import Footer from './pages/Shared/Footer/Footer';
 import Header from './pages/Shared/Header/Header';
 import NotFound from './pages/Shared/NotFound/NotFound';
@@ -21,6 +23,8 @@ function App() {
         <Route path='/artists' element={<Artists></Artists>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
