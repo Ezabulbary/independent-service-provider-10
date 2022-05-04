@@ -1,10 +1,12 @@
 import { faFacebook, faGithub, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
-import { useSignInWithEmailAndPassword, useSignInWithFacebook, useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword, useSignInWithFacebook, useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import auth from '../../firebase.init';
 import Loading from '../Shared/Loading/Loading';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Login.css';
 
 const Login = () => {
@@ -12,6 +14,8 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const [signInWithEmailAndPassword, signInUser, signInLoading, signInError] = useSignInWithEmailAndPassword(auth);
+    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+
     const [signInWithGithub, githubUser, githubLoading, githubError] = useSignInWithGithub(auth);
     const [signInWithGoogle, googleUser, googleLoading, googleError] = useSignInWithGoogle(auth);
     const [signInWithFacebook, facebookUser, facebookLoading, facebookError] = useSignInWithFacebook(auth);
@@ -74,6 +78,16 @@ const Login = () => {
         event.preventDefault();
     }
 
+    const resetPassword = async () => {
+        if (email) {
+            await sendPasswordResetEmail(email);
+            toast('Sent email');
+        }
+        else {
+            toast('please enter your email address');
+        }
+    }
+
     return (
         <div className='login'>
             <h1 className='text-center text-success mb-3'>Please Login</h1>
@@ -89,7 +103,9 @@ const Login = () => {
                 <p className='text-danger'>{error}</p>
 
                 <p>Don't have an Account?<Link className='ms-2' to='/register'>Register</Link></p>
-                <p>Forget Password?<Link className='ms-2' to='/register'>Reset Password</Link></p>
+                <p>Forget Password?<button onClick={resetPassword} className='btn text-primary ms-1'>Reset Password</button></p>
+                <ToastContainer />
+
                 <button onClick={() => signInWithEmailAndPassword(email, password)} className='btn btn-success'>Login</button>
             </form>
         </div>
