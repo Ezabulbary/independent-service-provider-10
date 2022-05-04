@@ -10,12 +10,12 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link as={Link} to="/services">Services</Nav.Link>
-                        <Nav.Link as={Link} to="/artists">Artists</Nav.Link>
-                        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                            <NavDropdown.Item as={Link} to="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="#action/3.3">Something</NavDropdown.Item>
+                        <Nav.Link as={Link} to="/home">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
+                        <NavDropdown title="Our Work" id="collasible-nav-dropdown">
+                            <NavDropdown.Item as={Link} to="/services">Services</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/artists">Artists</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/contact">Contact</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item as={Link} to="/checkout">Checkout</NavDropdown.Item>
                         </NavDropdown>
