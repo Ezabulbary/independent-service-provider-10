@@ -111,7 +111,7 @@ const Register = () => {
                 <p className='text-danger'>{error}</p>
 
                 <p>Already have an Account?<Link className='ms-2' to='/login'>Login</Link></p>
-                <button onClick={() => createUserWithEmailAndPassword(name, email, password)} className='btn btn-success'>Register</button>
+                <button onClick={() => createUserWithEmailAndPassword( email, password)} className='btn btn-success'>Register</button>
             </form>
         </div>
     );

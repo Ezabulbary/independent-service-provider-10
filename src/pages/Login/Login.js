@@ -48,7 +48,7 @@ const Login = () => {
         navigate(from, { replace: true });
     }
 
-    if (signInLoading || githubLoading || googleLoading || facebookLoading) {
+    if (signInLoading || sending || githubLoading || googleLoading || facebookLoading) {
         return <Loading></Loading>
     }
 

@@ -21,7 +21,7 @@ const Bannar = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>The Art</h3>
+                    <h3>Weave Dreams to Paint</h3>
                     <p>The arts are a vehicle through which human beings cultivate distinct social, cultural, and individual identities while transmitting values, impressions, judgments, ideas, visions, spiritual meanings, patterns of life, and experiences across time and space.</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -33,7 +33,7 @@ const Bannar = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>The Art</h3>
+                    <h3>Weave Dreams to Paint</h3>
                     <p>Art encompasses multiple diverse and plural modes of thinking, doing, and being, in an extremely broad range of media.</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -45,7 +45,7 @@ const Bannar = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>The Art</h3>
+                    <h3>Weave Dreams to Paint</h3>
                     <p>This is often achieved through sustained and deliberate study, training, and theorizing within a particular tradition, across generations, and even between civilizations.</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -57,7 +57,7 @@ const Bannar = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>The Art</h3>
+                    <h3>Weave Dreams to Paint</h3>
                     <p>The arts are a very wide range of human practices of creative expression, storytelling, and cultural participation.</p>
                 </Carousel.Caption>
             </Carousel.Item>

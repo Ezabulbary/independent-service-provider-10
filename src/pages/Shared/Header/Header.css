@@ -2,3 +2,7 @@
     border: none;
     color: white;
 }
+
+.logout-btn:hover{
+    color: orange;
+}

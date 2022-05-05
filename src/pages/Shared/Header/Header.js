@@ -5,13 +5,22 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import CustomLink from '../CustomLink/CustomLink';
+import Loading from '../../Shared/Loading/Loading';
 import './Header.css'
 
 const Header = () => {
-    const [user] = useAuthState(auth);
+    const [user, loading] = useAuthState(auth);
+
+    if (loading) {
+        return <Loading></Loading>
+    }
+
     const logout = () => {
         signOut(auth);
     };
+
+    
+
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
             <Container>
