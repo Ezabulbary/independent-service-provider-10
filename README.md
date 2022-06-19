@@ -2,8 +2,21 @@
 
 My title: Weave Dreams to Paint.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live website: [BUNON](https://weave-dreams-to-paint.web.app/).
 
 ## Description
 
-- Available Scripts
+- This is an art website.
+- React router is used here.
+- React bootstrap has been used for the design.
+- Font-awesome have been used for various icons.
+- I used Google firebase for this web Authentication.
+
+## The frameworks that have been used on this web site
+
+- React router
+- React bootstrap
+- Font-awesome
+- Google firebase
+- React Firebase Hooks
+- React-toastify
